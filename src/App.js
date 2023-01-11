@@ -1,4 +1,4 @@
-import logo from "./assets/logo.png";
+import logo from "./assets/pixels-logo-transparent.png";
 import "./App.css";
 
 function App() {
