@@ -1,21 +1,26 @@
-import './App.css';
+import logo from "./assets/logo.png";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={logo} className="logo" alt="logo" />
+      <a
+        className="App-link"
+        href="https://www.meetup.com/pxandpints/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Visit the Meetup page
+      </a>
+      <a
+        className="App-link"
+        href="https://discord.gg/y5JKKkHYgN"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Join us on Discord
+      </a>
     </div>
   );
 }
