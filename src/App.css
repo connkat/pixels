@@ -42,7 +42,7 @@
   justify-content: center;
 }
 
-.discord-button .eXBDED {
+.discord-button button {
   font-size: .7rem !important;
   background-color: #6168E4 ;
 }
@@ -52,7 +52,7 @@
   justify-content: center;
 }
 
-.contact-button .eXBDED {
+.contact-button button {
   font-size: .7rem !important;
   background-color: #BE333A ;
 }
@@ -78,8 +78,8 @@
   padding-top: 5vh;
 }
 
-.event-left .eXBDED {
-  font-size: 1rem !important;
+.event-left button {
+  font-size: .7rem !important;
   background-color: #F5C03A;
 }
 
@@ -113,6 +113,6 @@ a {
   padding-top: 5vh;
 }
 
-.event-right .eXBDED {
-  font-size: 1rem !important;;
+.event-right button {
+  font-size: .7rem !important;;
 }
