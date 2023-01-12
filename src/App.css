@@ -1,9 +1,113 @@
 .App {
-  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  cursor: url("./assets/cursor.png"), auto;
+}
+
+.logo-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;
+  flex-direction: column;
 }
 
 .logo {
-  height: 20vh;
+  height: 70vh;
 }
 
+.intro {
+  text-align: center;
+  padding-bottom: 10vh;
+}
 
+.intro img {
+  max-height: 7vh;
+}
+
+.mission {
+  line-height: 1.5;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding: 3vh;
+}
+
+.discord-button{
+  display: flex;
+  justify-content: center;
+}
+
+.discord-button .eXBDED {
+  font-size: .7rem !important;
+  background-color: #6168E4 ;
+}
+
+.contact-button{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-button .eXBDED {
+  font-size: .7rem !important;
+  background-color: #BE333A ;
+}
+
+.event-left {
+  padding: 10vh 0;
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  text-align: right;
+  line-height: 1.5;
+}
+
+.event-left-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.event-left-button {
+  display: flex;
+  justify-content: end;
+  padding-top: 5vh;
+}
+
+.event-left .eXBDED {
+  font-size: 1rem !important;
+  background-color: #F5C03A;
+}
+
+.pints-logo {
+  height: 40vh;
+  align-self: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.event-right {
+  padding-top: 10vh;
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.event-right-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.event-right-button {
+  display: flex;
+  justify-content: start;
+  padding-top: 5vh;
+}
+
+.event-right .eXBDED {
+  font-size: 1rem !important;;
+}
