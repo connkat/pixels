@@ -17,7 +17,7 @@ function App() {
           <p>Welcome to the home of Calgary's oldest tech meetup!</p>
           <p>It's dangerous to go alone! Take this.</p>
           <img src={sword} className="sword" alt="sword" />
-          <p>(Keep scrolling)</p>
+          <p>&#9660; &#9660; &#9660; &#9660; &#9660; &#9660; &#9660; &#9660;</p>
         </div>
 
         <div className="mission">
