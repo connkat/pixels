@@ -99,7 +99,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="event-right">
+        {/* <div className="event-right">
           <h2>Other Event That I don't know the Name of</h2>
           <div className="event-right-row">
             <img src={pints} className="pints-logo-2-mobile" alt="pints" />
@@ -122,7 +122,7 @@ function App() {
             </div>
             <img src={pints} className="pints-logo-2-desktop" alt="pints" />
           </div>
-        </div>
+        </div> */}
       </div>
     </ThemeWrapper>
   );
