@@ -141,6 +141,9 @@ text-align: center;
   h1 {
     padding-top: 3vh;
     }
+    .logo-row {
+      padding-bottom: 0;
+    }
 
   .intro {
     padding-bottom: 3vh;
