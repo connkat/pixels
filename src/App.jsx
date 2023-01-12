@@ -64,6 +64,8 @@ function App() {
             </div>
           </Box>
         </div>
+        <h1>Events</h1>
+        <h1>&#9660; &#9660; &#9660; &#9660; &#9660; &#9660;</h1>
         <div className="event-left">
           <h2>Pixels and Pints</h2>
           <div className="event-left-row">
