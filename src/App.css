@@ -1,5 +1,10 @@
+@font-face {
+  font-family: "Press Start";
+  src: url("./fonts/PressStart2P-Regular.ttf");
+}
+
 .App {
-  font-family: "Press Start 2P", cursive;
+  font-family: "Press Start", cursive;
   cursor: url("./assets/cursor.png"), auto;
 }
 
