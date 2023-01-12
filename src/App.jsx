@@ -100,21 +100,25 @@ function App() {
         <div className="event-right">
           <h2>Other Event That I don't know the Name of</h2>
           <div className="event-right-row">
+            <img src={pints} className="pints-logo-2-mobile" alt="pints" />
             <div>
               <p>
                 Another Write up to go here. I'll make a new logo once I know
-                more.
+                more. There will be more text here so the spacing looks more
+                similar to the one above.
               </p>
-              <a
-                className="App-link"
-                href="https://www.meetup.com/pxandpints/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Another Link? Who knows!
-              </a>
+              <div className="event-right-button">
+                <a
+                  className="App-link"
+                  href="https://www.meetup.com/pxandpints/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button>Another link maybe?</Button>
+                </a>
+              </div>
             </div>
-            <img src={pints} className="pints-logo" alt="pints" />
+            <img src={pints} className="pints-logo-2-desktop" alt="pints" />
           </div>
         </div>
       </div>

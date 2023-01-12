@@ -27,7 +27,7 @@
 
 .sword {
   max-height: 7vh;
-  padding-bottom: 3vh;
+  padding: 2vh 0;
 }
 
 .mission {
@@ -89,6 +89,20 @@
   align-self: center;
 }
 
+.pints-logo-2-mobile {
+  display: hidden;
+  position: absolute;
+  left: -999em;
+}
+
+.pints-logo-2-desktop {
+  display: flex;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    height: 40vh;
+}
+
 a {
   text-decoration: none;
 }
@@ -116,4 +130,54 @@ a {
 
 .event-right button {
   font-size: 0.7rem !important;
+}
+
+/* mobile/tablet */
+@media only screen and (max-width: 821px) {
+  .intro {
+    padding-bottom: 3vh;
+  }
+  .mission {
+    width: 90%;
+    padding: 0;
+  }
+
+  .event-left {
+    padding: 2vh 0;
+    width: 90%;
+    text-align: center;
+  }
+  .event-left-row {
+    flex-direction: column;
+  }
+  .event-left-button {
+    justify-content: center;
+    padding-top: 2vh;
+  }
+
+  .event-right {
+    padding: 2vh 0;
+    width: 90%;
+    text-align: center;
+  }
+  .event-right-row {
+    flex-direction: column;
+  }
+  .event-right-button {
+    justify-content: center;
+    padding-top: 2vh;
+  }
+
+  .pints-logo-2-desktop {
+    display: hidden;
+    position: absolute;
+    left: -999em;
+  }
+
+  .pints-logo-2-mobile {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 0;
+  }
 }
