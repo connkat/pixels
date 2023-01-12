@@ -1,4 +1,4 @@
-import { Button, Box, BoxError, ThemeWrapper } from "retro-ui";
+import { Button, Box, ThemeWrapper } from "retro-ui";
 
 import logo from "./assets/pixels-logo-top.png";
 import sword from "./assets/sword.png";
