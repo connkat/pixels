@@ -100,14 +100,12 @@ function App() {
           </div>
         </div>
         {/* <div className="event-right">
-          <h2>Other Event That I don't know the Name of</h2>
+          <h2>Pixel Bits</h2>
           <div className="event-right-row">
             <img src={pints} className="pints-logo-2-mobile" alt="pints" />
             <div>
               <p>
-                Another Write up to go here. I'll make a new logo once I know
-                more. There will be more text here so the spacing looks more
-                similar to the one above.
+                Level up your coding skills at these workshop style events where you will have the opportunity to pair on a different topic every time
               </p>
               <div className="event-right-button">
                 <a
