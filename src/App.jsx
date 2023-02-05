@@ -14,7 +14,10 @@ function App() {
           <img src={logo} className="logo" alt="logo" />
         </div>
         <div className="intro">
-          <p>Welcome to the home of Calgary's oldest tech meetup!</p>
+          <p>
+            Welcome to the original Pixels Website! Tony wanted to go in another
+            direction but I liked it so much I saved it as an easteregg
+          </p>
           <p>It's dangerous to go alone! Take this.</p>
           <img src={sword} className="sword" alt="sword" />
           <p>&#9660; &#9660; &#9660; &#9660; &#9660; &#9660; &#9660; &#9660;</p>
