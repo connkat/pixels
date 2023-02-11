@@ -1,5 +1,7 @@
 # pixels
 
+RIP this is no longer the landing page for pixelsyyc 
+
 A landing page for pixelsyyc
 Made in React, l because Tony hates it.
 
